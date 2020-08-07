@@ -46,7 +46,7 @@ def add_waypoint_handler(packet_contents):
     latitude, longitude = packet_contents.data
     waypoint = constants.Coordinate(latitude, longitude)
     waypoints.append(waypoint)
-    print("YO im addin a point")
+    print "YO im addin a point"
     tempString = time.strftime("%H%M%S") +  " Add Waypoint: lat,lon: " + str(latitude) + "," + str(longitude)
     Logger.write_line(tempString)
     print("Added waypoint %s" % (waypoint,))
