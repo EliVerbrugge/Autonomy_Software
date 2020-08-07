@@ -3,11 +3,8 @@
 
 name: Autonomy Code Check
 
-on:
-  push:
-    branches: [ dev master ]
-  pull_request:
-    branches: [ dev master ]
+on: [push]
+
 
 jobs:
   build:
