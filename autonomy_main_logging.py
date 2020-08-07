@@ -22,7 +22,7 @@ outString = "logs/" + time.strftime("%Y%m%d-%H%M%S") + ".txt"
 Logger = LogWriter(outString)
 print(outString)
 
-# Hardware Setup
+# Hardware Setup boohoo
 rovecomm_node = RoveCommEthernetUdp(Logger)
 print("RoveComm")
 drive = DriveBoard()
