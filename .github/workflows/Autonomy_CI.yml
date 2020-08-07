@@ -4,13 +4,11 @@
 name: Autonomy Code Check
 
 on:
-   push:
+  push:
     branches:
-      - master
       - dev
   pull_request:
     branches:
-      - master
       - dev
 
 
